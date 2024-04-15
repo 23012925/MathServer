@@ -72,9 +72,9 @@ padding-top: 20px;}
         </form>
     </div>
 </div></body></html>
-
+```
+```
 views.py
-
 
 from django.shortcuts import render
 def surfacearea(request):
@@ -96,7 +96,8 @@ def surfacearea(request):
         print('Area =', area)
     
     return render(request, 'mathapp/math.html',context)
-
+```
+```
 urls.py
     
 from django.contrib import admin
@@ -111,9 +112,11 @@ urlpatterns = [
 ```
 
 ## SERVER SIDE PROCESSING:
+![WhatsApp Image 2024-04-15 at 15 44 41_f0327184](https://github.com/23012925/MathServer/assets/150931013/bc7216a9-5816-4004-96c2-bbeb1b58fb6f)
 
 
 ## HOMEPAGE:
+![WhatsApp Image 2024-04-15 at 15 43 41_427d4294](https://github.com/23012925/MathServer/assets/150931013/9cba1fbe-052e-494d-a704-5bd8f50f3cd4)
 
 
 ## RESULT:
