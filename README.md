@@ -56,7 +56,7 @@ padding-top: 20px;}
 <div class="edge">
     <div class="box">
         <h1>Surfacearea of Right Cylinder</h1>
-        <h3> HAREVASU S   (212223230069)</h3>
+        <h3> JANARTHANAN K  (212223040072)</h3>
         <form method="POST">
             {% csrf_token %}
             <div class="formelt">
